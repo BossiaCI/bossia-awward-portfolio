@@ -12,7 +12,7 @@ en quête d’un avantage décisif.`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"404 AUCUN BUG TROUVÉ !"}
+        subTitle={"404 AUCUN BUG TROUVÉ"}
         title={"Bossia"}
         text={text}
         textColor={"text-black"}

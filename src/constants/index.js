@@ -80,11 +80,11 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Workflow Manager",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "Gestionnaire de flow : organisation et optimisation des flux de travail pour garantir des processus fluides, efficaces et cohérents.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/flowscrape.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -92,13 +92,14 @@ export const projects = [
       { id: 3, name: "Node.js" },
       { id: 4, name: "MongoDB" },
       { id: 5, name: "Tailwind CSS" },
+      { id: 6, name: "Clerk auth" },
     ],
   },
   {
     id: 2,
     name: "Plant Shop E-commerce",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "Une boutique en ligne spécialisée dans les plantes rares et décoratives, avec une interface épurée et conviviale.",
     href: "",
     image: "/assets/projects/plant-shop.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
@@ -111,24 +112,21 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Finance App",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "Une application de gestion des finances personnelles qui aide les utilisateurs à suivre leurs dépenses, définir des budgets et visualiser leurs habitudes de consommation.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/financeapp.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Nextjs" },
-      { id: 2, name: "Fastapi" },
-      { id: 3, name: "Postgres" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "flutter" },
     ],
   },
   {
     id: 4,
     name: "Electronics & Gadgets Store",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "Une boutique en ligne multicatégorie proposant de l’électronique, de l’électroménager et du matériel gaming, avec des offres spéciales.",
     href: "",
     image: "/assets/projects/electronics-store.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
@@ -143,7 +141,7 @@ export const projects = [
     id: 5,
     name: "Home Decor Marketplace",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "Une collection soigneusement sélectionnée d’objets de décoration design pour la maison, incluant du mobilier et des vases artisanaux.",
     href: "",
     image: "/assets/projects/home-decor-store.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
@@ -156,17 +154,62 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Ivoire Explorer (WIP)",
     description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+      "Une application de guide de voyage interactif pour explorer les principales destinations, la culture et la gastronomie de la Côte d’Ivoire.",
     href: "",
-    image: "/assets/projects/game-store.jpg",
+    image: "/assets/projects/ivoire_explorer.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "Reactjs" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Figma" },
+      { id: 2, name: "Flutter" },
+    ],
+  },
+  {
+    id: 7,
+    name: "Quartz (WIP)",
+    description:
+      "Une plateforme interactive de gestion BIM permettant de visualiser et de gérer les données du bâtiment en temps réel.",
+    href: "",
+    image: "/assets/projects/quartz.png",
+    bgImage: "/assets/backgrounds/blanket.jpg",
+    frameworks: [
+      { id: 1, name: "nextjs" },
+      { id: 2, name: "tailwindcss" },
+      { id: 3, name: "typescript" },
+      { id: 4, name: "fastapi" },
+      { id: 5, name: "Postgres" },
+      { id: 6, name: "redis" },
+      { id: 7, name: "rabbitmq" },
+      { id: 8, name: "c++" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Pathfinder Algorithm Visualizer",
+    description:
+      "Une application web interactive qui permet aux utilisateurs de visualiser et de comprendre le fonctionnement des algorithmes de recherche de chemin tels que A*, Dijkstra et BFS.",
+    href: "",
+    image: "/assets/projects/pathfinding-visualizer.gif",
+    bgImage: "/assets/backgrounds/table.jpg",
+    frameworks: [
+      { id: 1, name: "reactjs" },
+      { id: 2, name: "tailwindcss" },
+      { id: 3, name: "typescript" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Sorting Algorithm Visualizer",
+    description:
+      "Une application web interactive qui permet aux utilisateurs de visualiser et de comprendre le fonctionnement des algorithmes de tri tels que QuickSort, MergeSort et BubbleSort.",
+    href: "",
+    image: "/assets/projects/sorting.png",
+    bgImage: "/assets/backgrounds/curtains.jpg",
+    frameworks: [
+      { id: 1, name: "reactjs" },
+      { id: 2, name: "tailwindcss" },
+      { id: 3, name: "typescript" },
     ],
   },
 ];
